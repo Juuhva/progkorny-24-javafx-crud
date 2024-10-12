@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="350.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="crud.javafxcrud.Controllers.WelcomeController">
+   <children>
+      <Button fx:id="regButton" layoutX="59.0" layoutY="260.0" mnemonicParsing="false" onAction="#registerUser" text="Regisztráció" />
+      <Label layoutX="63.0" layoutY="41.0" text="Felhasználónév" />
+      <Label layoutX="86.0" layoutY="182.0" text="Jelszó" />
+      <PasswordField fx:id="regPassField" layoutX="28.0" layoutY="209.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField fx:id="regUsernameField" layoutX="28.0" layoutY="74.0" />
+      <TextField fx:id="regNameField" layoutX="27.0" layoutY="141.0" />
+      <Label layoutX="92.0" layoutY="109.0" text="Név" />
+      <Button fx:id="loginButton" layoutX="256.0" layoutY="196.0" mnemonicParsing="false" onAction="#loginUser" text="Bejelentkezés" />
+      <Label layoutX="260.0" layoutY="41.0" text="Felhasználónév" />
+      <Label layoutX="284.0" layoutY="109.0" text="Jelszó" />
+      <PasswordField fx:id="loginPassField" layoutX="225.0" layoutY="140.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField fx:id="loginUsernameField" layoutX="225.0" layoutY="74.0" />
+   </children>
+</AnchorPane>
